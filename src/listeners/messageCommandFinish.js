@@ -14,9 +14,9 @@ module.exports = class CommandFinishedListener extends Listener {
 	}
 
 	async run(message, command) {
-		const logChannel = message.client.channel.cache.get(process.env.TEST_CHANNEL_ID);
+		const logChannel = message.client.channels.cache.get(process.env.TEST_CHANNEL_ID);
 
-		const msg = `${message.author.tag} ran message comamnd \`e;${command.name}\` in #${message.channel.name}`;
+		const msg = `${message.author.tag} used \`e;${command.name}\` in #${message.channel.name}`;
 		return logChannel.send({ content: msg });
 	}
 };
