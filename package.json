@@ -1,0 +1,12 @@
+{
+  "name": "eritrea",
+  "main": "src/index.js",
+  "dependencies": {
+    "@sapphire/framework": "latest",
+    "discord.js": "14.x",
+    "dotenv": "^16.0.3"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  }
+}
