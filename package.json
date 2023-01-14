@@ -3,6 +3,7 @@
   "main": "src/index.js",
   "dependencies": {
     "@sapphire/framework": "latest",
+    "@sapphire/plugin-logger": "^3.0.1",
     "discord.js": "14.x",
     "dotenv": "^16.0.3"
   },

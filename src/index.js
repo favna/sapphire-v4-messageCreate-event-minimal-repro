@@ -1,4 +1,5 @@
 require('dotenv').config();
+require('@sapphire/plugin-logger/register');
 const { SapphireClient } = require('@sapphire/framework');
 const { GatewayIntentBits, Partials } = require('discord.js');
 
